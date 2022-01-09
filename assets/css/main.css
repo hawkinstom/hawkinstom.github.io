@@ -99,11 +99,16 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
+		background: rgb(255,238,0);
+background: -moz-linear-gradient(90deg, rgba(255,238,0,1) 0%, rgba(255,138,0,1) 50%, rgba(255,0,160,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(255,238,0,1) 0%, rgba(255,138,0,1) 50%, rgba(255,0,160,1) 100%);
+background: linear-gradient(90deg, rgba(255,238,0,1) 0%, rgba(255,138,0,1) 50%, rgba(255,0,160,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffee00",endColorstr="#ff00a0",GradientType=1);
+	/*	background-color: #935d8c;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);*/
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,8 +125,8 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
-		color: rgba(255, 255, 255, 0.65);
+		/*background-color: #935d8c;
+		color: rgba(255, 255, 255, 0.65);*/
 	}
 
 	body, input, select, textarea {
